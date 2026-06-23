@@ -1,19 +1,11 @@
 {
   "ApiVersion": 2,
-  "Name": "PrisonMode",
-  "Description": "Prison sandbox mode by @Tex934 TG",
+  "Name": "PrisonMock",
+  "Description": "Pure Prison Mode on MockMode base by Tex",
   "Parameters": {
     "Bool": [
-      { "Name": "Damage" },
-      { "Name": "PartialDesruction" },
-      { "Name": "LoosenBlocks" },
       { "Name": "RedTeam", "Default": true },
-      { "Name": "BlueTeam", "Default": true },
-      { "Name": "BlueHasNothing" },
-      { "Name": "FloodFill" },
-      { "Name": "FillQuad" },
-      { "Name": "RemoveQuad" },
-      { "Name": "Fly", "Default": true }
+      { "Name": "BlueTeam", "Default": true }
     ]
   }
 }
